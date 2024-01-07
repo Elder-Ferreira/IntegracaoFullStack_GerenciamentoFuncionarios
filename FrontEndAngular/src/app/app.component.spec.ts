@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'frontAngular' title`, () => {
+  it(`should have the 'FrontEndAngular' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('frontAngular');
+    expect(app.title).toEqual('FrontEndAngular');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, frontAngular');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, FrontEndAngular');
   });
 });

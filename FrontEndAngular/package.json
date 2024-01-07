@@ -1,5 +1,5 @@
 {
-  "name": "front-angular",
+  "name": "front-end-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:frontAngular": "node dist/front-angular/server/server.mjs"
+    "serve:ssr:FrontEndAngular": "node dist/front-end-angular/server/server.mjs"
   },
   "private": true,
   "dependencies": {
